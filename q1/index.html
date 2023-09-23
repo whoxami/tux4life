@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>~ tux4life</title>
+</head>
+<body bgcolor="#19181c">
+<center>
+<div class="r">
+<button onclick="window.location.href = ('settings.html');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/5970-quicksettings.png"></button>
+</div>
+<br><br><br>
+
+<div class="browser">
+<img height="100" src="tux.png">
+<br><br>
+<span class="title">tux4life</span>
+<br>
+<span class="title"><font color="limegreen">open source browser</font></span>
+<br><br>
+<form action="http://searx.thegpm.org/?preferences=eJx9VcGO4zYM_Zr6YqTodg89-VC0KLrAArNoZnsVaIlxuJZEl5KT8X59qYntKDvbHpIgFPX4-PxIC6bZ52Q4mohXk6Hv_gCfsHFMRjCxv6B0ydLhPPc_5mvjIQ4zDNhhPHw-Np4teOyyNI4S9B6dmfw8UEzd3xQOnkY0Z84jLumHn397mjAWVC1pPMVxr9sLXxNKqV_yPsQTRcpokhX2frv5q7WYkvn96YOCXEUTGgrKxUzCL8tKHObMlsPkMWPXJDhhQhB77n5q8hkDdpwsSIPxke0R_cloXZYAmTgWGs8CdlRWn__6qAUDqxQa_fP5-dNxI6D_j6_wpRMLGQeWxST0aPNdEoxaA1M3kh1BOzAn8lgqnASxTXzKVxBsHYleKwCGsp5eGLIxiS2BbwM6Ag1SBGMu5JALgKBz9DZpjmnykM4KVAQqmQPz4LHV8NLCNFUk3r1UaZPrUeEsYbSlu4EG7QGS1hgwooCvquqje-3CCZO7A8YFoILcu95Z11zCnMga8_qjRwtEhy_fK3aPDIhjpoBp1elWb0MIpKYpmrZgwWEo6Pd-eorDA9aNyo1aRRHskHj-L858IayzHdn8lSPWyG526tk6QEOfq0t2FlFWS50Tp7A2tRHYRN1k2GVd4bZz1BEqD-GOdQJh3h-Sp15AlracJ0p1orX2kC9182poumD7mLYx2oTuKfezDkheGS9wLvUqAqIzTmDfuPA7LO8BzEvgqOvhIQ2msQ0kwrJWyzwunDmdeYR4J3UGbbN8rWknr-6TisFJIEARA9eMsASdbVUmC8TkdYYfVAz8Re1WR1h3keDE1Qit5ihS74L_c4X4YNubTbcr3_Dftf8mvqU7vJDigdQWSPg1QnhbYwfTVRelTVlmm2cplr1Pwm0tWnbYlq9VjdVVm5zv3r__5aWeAsoe-jU3FTpTWcC1y93QOnzd32WN1kf7ItjQN0fdGtp38rYuV1Vvp7Xz1XXlM_D_ne2Vm4D5zK779HR8btYdTQV-PX59IRxSXvRF5nmgosblX-Riq8s=">
+<input class="input" name="q" type="text"><input type="submit" value="OK">
+</form>
+</div>
+<div id="stuff" class="kisayol">
+<button onclick="window.location.href = ('index.html');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/6007-home.png"></button>
+<button onclick="window.location.href = ('https://google.com');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/8610-va-google.png"></button>
+<button onclick="window.location.href = ('https://steampowered.com');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/1303-steam.png"></button>
+<button onclick="window.location.href = ('https://twitch.com');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/2160-twitch-logo.png"></button>
+<button onclick="window.location.href = ('https://github.com');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/6705-githubblack.png"></button>
+<button onclick="window.location.href = ('https://discord.com');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/9255-discord.png"></button>
+<button onclick="window.location.href = ('https://toggcusitesi.000webhostapp.com/');" class="nobg"><img height="30" src="https://cdn3.emoji.gg/emojis/3636-togg.png"></button>
+
+<br>
+</div>
+<br><br>
+<button onclick="gizleGoster();" class="nobg"><img height="30" id="image" src="https://cdn3.emoji.gg/emojis/8925-spectator.png"></button>
+
+</center>
+<script>
+function gizleGoster(stuff) {
+  var stuff = document.getElementById('stuff');
+  if (stuff.style.display == "none") {
+    stuff.style.display = "";
+    document.getElementById('image').src='https://cdn3.emoji.gg/emojis/8925-spectator.png';
+  } else {
+    stuff.style.display = "none";
+    document.getElementById('image').src='https://cdn3.emoji.gg/emojis/2011-private.png';
+  }
+}
+
+</script>
+<style>
+.r {
+  position:absolute;
+  right:1%;
+}
+.title {
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+}
+.nobg {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</body>
+</html>
